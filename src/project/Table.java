@@ -14,7 +14,7 @@ public class Table implements java.io.Serializable {
 	public Hashtable<String,String> htblColNameMax;
 	public Hashtable<Integer, Page> htblPage;
 	int pageCounter=0;
-	//Vector<Page> pages;
+	int octCounter=-1;
 	
 	public Table(String strTableName, String strClusteringKeyColumn, Hashtable<String, String> htblColNameType,
 			Hashtable<String, String> htblColNameMin, Hashtable<String, String> htblColNameMax) {
