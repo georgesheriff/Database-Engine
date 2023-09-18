@@ -1,0 +1,1 @@
+tableName,Name,String,false,A,AFAFF
